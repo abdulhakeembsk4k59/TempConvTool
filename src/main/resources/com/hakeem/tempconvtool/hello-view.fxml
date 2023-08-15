@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="262.0" prefWidth="262.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hakeem.tempconvtool.TempConvController">
+    <children>
+        <Pane prefHeight="233.0" prefWidth="267.0">
+            <children>
+                <Label fx:id="welcomeLabel" layoutX="86.0" layoutY="45.0" text="Welcome">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Label>
+                <ChoiceBox fx:id="choiceBox" layoutX="51.0" layoutY="88.0" prefHeight="25.0" prefWidth="149.0" />
+                <TextField fx:id="userInputField" layoutX="51.0" layoutY="127.0" promptText="Enter Temprature" />
+                <Button fx:id="convertButton" layoutX="86.0" layoutY="169.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Convert" />
+            </children>
+        </Pane>
+    </children>
+</VBox>
